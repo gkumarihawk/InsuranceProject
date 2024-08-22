@@ -20,7 +20,7 @@ import jakarta.annotation.PostConstruct;
 public class StripeService {
 
 
-    private String secretKey = "sk_test_51PNmQNFoEq7Q2rGLubGBPJzQQrQuLK05gpnpDkaRZrTkpGRGYHVhOKqAwWpBmiHPoKTy4qw6t5hgPG5cKRReXPuB00NfUFmf1Z";
+    private String secretKey = "%Please put your stripe secretKey here%";
     
     @PostConstruct
     public void init() {
